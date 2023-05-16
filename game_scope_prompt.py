@@ -1,0 +1,20 @@
+
+def prompt_choice(summary = 0):
+	print("Select game type: ")
+	print("1 - Double or Nothing 0.40")
+	print("2 - Double or Nothing 1.00")
+	print("3 - Sit & Go 0.40")
+	print("4 - Sit & Go 1.00")
+	print("5 - Sit & Go 3.00")
+	print("6 - Sit & Go 5.00")
+	print("7 - Tournamet ticket 0.10 for 1.00")
+	print("8 - Tournamet ticket 1.00 for 5.50")
+	print("9 - 1.00 Tournaments")
+	print("10 - 4.40 Tournaments")
+	print("11 - 5.50 Tournaments")
+	print("12 - $500 Fabulous daily free row")
+	print("13 - $500 Free Noble Kingdom")
+	print("14 - 16.5 Tournaments")
+	if not summary:
+		print("15 - Cash games 0.01-0.02")
+	print("Default (anyelse)")
